@@ -23,4 +23,130 @@ header {
     letter-spacing: .2em;
     font-weight: 700;
     color: white;
+    float: left;
+    padding: 1em 3.5em 1em 0.5em;
+}
+nav {
+    background: transparent !important;
+    text-align: center;
+    padding: 1em 3.5em 1em 0.5em;
+}
+nav a {
+   padding: 1em 3.5em 1em 0.5em;
+   display: inline block;
+   color: white; 
+}
+a {
+    transition: .3s all ease;
+    -webkit-transition: none;
+    -o-transition: none;
+    text-decoration: none;
+}
+.heroimage {
+    background: url(../images/home.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.main-padding {
+    padding: 7em 0em;
+}
+.sideleft {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+.sub-heading {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #cccccc;
+    letter-spacing: .1em;
+}
+.heading {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.button {
+    background-color: #697e83;    
+    transition: .3s all ease;    
+    padding: 12px 30px;    
+    margin-top: 1em;    
+    text-transform: uppercase;    
+    letter-spacing: .15em;    
+    color: #fff;    
+    border: 1px solid #697e83;    
+    cursor: pointer;     
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);  
+}
+.button:hover {
+   color: #697e83;
+   background-color: #ffffff; 
+}
+.sideright {
+    float: right;
+    width: 60%;
+}
+.bg-color {
+    background-color: #f8f9fa !important;
+}
+.feature {
+    text-align: center;
+}
+.feature-image {
+    position: relative;
+    text-align: center;
+}
+.feature-image img {
+    display: inline block;
+    width: 300px;
+    margin: 1em;
+}
+.newsletter {
+    padding: 2em;
+    color: white;
+    background: #35424a;
+    overflow: hidden;
+}
+.newsletter h1 {
+    float: left;
+    padding-top: 0.7em;
+}
+.newsletter form {
+    float: right;
+    margin: 10px;
+}
+.newsletter input[type="email"]{ 
+    padding: 20px 30px;
+    height:2.8em;
+    width:250px;
+    outline: none;
+}
+.footer {
+    float: left;
+    width: 33%;
+    align-content: center;
+    margin-bottom: 4em;
+}
+.main-footer {
+    padding: 4em 0em 0.9em 0em;
+    background: #f2f2f2;
+}
+.copyright {
+    clear: left;
+    text-align: center;
+}
+.rooms-pic-1{    
+    max-width: 30%;    
+    display: inline-block;    
+    position: relative;    
+    overflow: hidden;    
+    padding: 0 1em;  
+}
+.rooms-pic-1 figure {
+    float: left;
+}
+.rooms-body {
+    background: white !important;
+    padding: 30px;
+    border: 1px solid #e6e6e6;
+    border-top: none;
 }
