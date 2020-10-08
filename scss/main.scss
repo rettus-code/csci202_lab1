@@ -10,7 +10,7 @@ universal {
     box-sizing: border-box;
 }
 body {
-    background: #f4f4f4f4;
+    background: #f4f4f4f4 !important;
     margin: 0px;
     padding: 0px;
     font: 20px/1.5 ‘Nunito’, sans-serif;
@@ -150,7 +150,7 @@ a {
     float: left;
 }
 .rooms-body {
-    // background: white !important;
+    background: white !important;
     padding: 30px;
     border: 1px solid #e6e6e6;
     border-top: none;
@@ -171,7 +171,7 @@ figure .img {
     border: 1px solid #ced4da;
 }
 .contactform {
-    width: 70%;
+    width: 100%;
     padding-bottom: 4em;
     margin: auto;
 }
@@ -194,4 +194,5 @@ figure .img {
 nav a{
     padding: 1em2.5em;
     display: $display-style;
-    color: $white-color;}
+    color: $white-color;
+}

@@ -7,7 +7,7 @@ universal {
 }
 
 body {
-  background: #f4f4f4f4;
+  background: #f4f4f4f4 !important;
   margin: 0px;
   padding: 0px;
   font: 20px/1.5 ‘Nunito’, sans-serif;
@@ -173,6 +173,7 @@ a {
 }
 
 .rooms-body {
+  background: white !important;
   padding: 30px;
   border: 1px solid #e6e6e6;
   border-top: none;
@@ -196,7 +197,7 @@ figure .img {
 }
 
 .contactform {
-  width: 70%;
+  width: 100%;
   padding-bottom: 4em;
   margin: auto;
 }
